@@ -1,0 +1,27 @@
+.my1,.my2,.my3,.my4,.my5,.my6{
+    background-color: aqua;
+    border: 3px solid;
+}
+.help{
+    display: grid;
+    grid-template-columns: 150px 150px 100px ;
+    grid-template-rows: 100px 200px;
+    
+}
+.my1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.my6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.my5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.my4{
+    grid-row-start: 2;
+    grid-row-end: ;
+}
